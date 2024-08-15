@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university wave </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+    <nav>
+        <a href=""><img src="eduford_img/logo.png" height="50px" alt=""></a>
+       <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="course.html">Course</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+       </div>
+       <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Contect Us</h1>
+     
+    </section>
+
+<!---Conect  us content--------------->
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31269.005209323615!2d78.0145305!3d11.5786715!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3babe4441ef6785f%3A0x87ecc27c93207ffc!2sVinayaka%20Mission&#39;s%20Kirupananda%20Variyar%20Engineering%20College!5e0!3m2!1sen!2sin!4v1721151596146!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<section class="contect-us">
+    <div class="row">
+    <div class="contact-col">
+        <div>
+            <i class="fa fa-home"></i> 
+            <span>
+                <h5> 
+                NH 47 Chinna Seeragapadi Periya Seeragapadi,
+                 Salem, Tamil Nadu 636308
+                </h5>
+                <p>VCollegeinayaka Mission's Kirupananda Variyar
+                 Engineering</p>
+            </span> 
+        </div>
+        <div>
+            <i class="fa fa-phone"></i> 
+            <span>
+                <h5> 
+                +91020442520
+                </h5>
+                <p>Monday to Saturday, 10AM to 6PM</p>
+            </span> 
+        </div>
+        <div>
+            <i class="fa fa-envelope-o"></i> 
+            <span>
+                <h5> 
+                vikramkumar@gmail.com
+                </h5>
+                <p>Email us your query</p>
+            </span> 
+        </div>
+        
+    </div>
+    <div class="contact-col">
+        <form action="">
+            <input type="text" placeholder="Enter your name" required>
+            <input type="email" placeholder="Email Address" required>
+            <input type="text" placeholder="Enter your subject" required>
+            <textarea rows="8" placeholder="Massage"></textarea>
+            <button type="submit" class="hero-btn red-btn">Send Message</button>
+        </form>
+
+    </div>
+</div>
+</section>
+
+  
+
+
+<!-------------footer  ------------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Amet placeat eius, possimus reprehenderit error cum illo,
+        <br> id maiores, minima a perspiciatis ullam cupiditate.</p>
+        <div class="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made by @Vikram kumar</p>
+
+</section>
+
+
+
+
+
+<!-------------js tutorials------------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+        var navLinks = document.getElementById("navLinks");
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }    
+    </script>
+
+ 
+</body>
+</html>
